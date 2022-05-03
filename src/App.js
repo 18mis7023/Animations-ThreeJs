@@ -1,23 +1,16 @@
-import logo from './logo.svg';
+  // import * as THREE from 'three';
+  // const scene = new THREE.Scene();
+//or
+import { Scene } from 'three';
 import './App.css';
 
 function App() {
+  const scene = new Scene();
+  
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      
     </div>
   );
 }

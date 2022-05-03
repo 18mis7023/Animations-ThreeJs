@@ -4,7 +4,7 @@
 // import { Scene,WebGLRenderer,PerspectiveCamera,LineBasicMaterial,Vector3,BufferGeometry,Line } from 'three';
 import './App.css';
 import Rectangle from './components/Rectangle';
-
+import RectangleBoxes from './components/RectangleBoxes';
 function App() {
   // console.log(THREE);
   // const renderer = new WebGLRenderer();
@@ -29,7 +29,9 @@ function App() {
   // renderer.render( scene, camera );
   return (
     <div className="App">
-        <Rectangle />
+      <Rectangle />
+        {/* <Rectangle /> */}
+        <RectangleBoxes />
     </div>
   );
 }
